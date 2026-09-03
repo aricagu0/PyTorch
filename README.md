@@ -60,7 +60,7 @@ RC카에 물리적인 조향 각도(Angle)를 만드는 서보모터(Steering Wh
 | **5. 적응형 이진화**| Adaptive Threshold | 흑백 픽셀 반전 분리 (0 또는 255) | 주변 밝기에 적응하여 **어두운 트랙 선은 하얗게(255), 밝은 바닥은 검게(0) 완전 분리**하여 AI가 학습할 핵심 특징만 남깁니다. |
 | **6. 크기 조절** | Resize (`resize`) | 200 x 66 픽셀로 이미지 압축 | 엔비디아(NVIDIA) **PilotNet 모델이 요구하는 정확한 입력 규격**에 맞추어 이미지를 작고 가볍게 만듭니다. |
 
-![보정후 이미지](model_input_0.jpg)(model_input_2.jpg)(model_input_4.jpg)
+[보정후 이미지]!(model_input_0.jpg) !(model_input_2.jpg) !(model_input_4.jpg)
 ---
 ## 4. 파이토치(PyTorch) 인공지능 모델 학습 과정
 
