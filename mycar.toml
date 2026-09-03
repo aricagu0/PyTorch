@@ -1,0 +1,10 @@
+[[protocols]]
+name = "mycar"
+protocol = "nec"
+[protocols.scancodes]
+0x0022 = "KEY_REWIND"        # 늦게감기 -> 속도 감소
+0x0002 = "KEY_FASTFORWARD"   # 빨리감기 -> 속도 증가
+0x00c2 = "KEY_OK"            # 시작 -> 녹화+주행 시작
+0x0068 = "KEY_STOP"          # ★ 정지 -> 녹화 종료+저장
+0x00e0 = "KEY_KPMINUS"       # 마이너스 -> 좌회전
+0x0090 = "KEY_KPPLUS"        # 플러스 -> 우회전
