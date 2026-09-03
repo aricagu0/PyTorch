@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="파이토치자율주행.jpg" width="60%" alt="파이토치 자율주행 메인 이미지">
-</div>
 # 🚗 자율주행 RC카 (차동 구동) 학습 및 주행 프로젝트 요약
 
 본 문서는 조향 장치가 없는 4WD 차동 구동(Differential Drive) 기반의 RC카를 인공지능(PyTorch) 자율주행으로 제어하기 위해 사용한 하드웨어 환경과 주행 학습 데이터를 수집하는 과정을 정리한 기술 문서입니다.
@@ -111,3 +108,6 @@ RC카에 물리적인 조향 각도(Angle)를 만드는 서보모터(Steering Wh
 ## 🎥 관련 영상 (YouTube)
 * **학습용 주행 영상**: [https://youtu.be/7M5P6-Q6pJk](https://youtu.be/7M5P6-Q6pJk)
 * **자율주행 테스트 영상**: [https://youtu.be/o-jBJ83kxJ8](https://youtu.be/o-jBJ83kxJ8)
+<div align="center">
+  <img src="파이토치자율주행.jpg" width="40%" alt="파이토치 자율주행 메인 이미지">
+</div>
